@@ -1,0 +1,15 @@
+.escolhaAluguel__botao {
+  background: rgb(223, 22, 39);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 1rem;
+  transition: 400ms all;
+}
+
+.escolhaAluguel__botao:hover {
+  background: rgb(161, 17, 46);;
+  color: #fdfdfd;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px gray;
+}

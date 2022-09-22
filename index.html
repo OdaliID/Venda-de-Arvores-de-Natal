@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Codificação binária para representação de caracteres - meio que um dicionário -->
+    <meta charset="UTF-8">
+
+    <!-- Definição de compatibilidade Internet explorer/edge -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Instruções ao browser de como controlar a dimensão das páginas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Descrição dos planos -->
+    <link rel="stylesheet" href="assets/css/descricaoPlanos/descricaoPlanos.css">
+    <!-- Descrição dos planos - Semanal -->
+    <link rel="stylesheet" href="assets/css/descricaoPlanos/semanal/descricaoPlanosSemanal.css">
+    <link rel="stylesheet" href="assets/css/descricaoPlanos/semanal/descricaoPlanosSemanal-semana.css">
+    <link rel="stylesheet" href="assets/css/descricaoPlanos/semanal/descricaoPlanosSemanal-mes.css">
+    <link rel="stylesheet" href="assets/css/descricaoPlanos/semanal/descricaoPlanosSemanal-switch.css">
+    <link rel="stylesheet" href="assets/css/descricaoPlanos/semanal/descricaoPlanosSemanal-ball.css">
+    <!-- Descrição dos planos - Mensal  -->
+    <link rel="stylesheet" href="assets/css/descricaoPlanos/mensal/descricaoPlanosMensal.css">
+    <link rel="stylesheet" href="assets/css/descricaoPlanos/mensal/descricaoPlanosMensal-semana.css">
+    <link rel="stylesheet" href="assets/css/descricaoPlanos/mensal/descricaoPlanosMensal-mes.css">
+    <link rel="stylesheet" href="assets/css/descricaoPlanos/mensal/descricaoPlanosMensal-switch.css">
+    <link rel="stylesheet" href="assets/css/descricaoPlanos/mensal/descricaoPlanosMensal-ball.css">
+    <!-- Aluguel árvore semana -->
+    <link rel="stylesheet" href="assets/css/arvoreSemana/arvoreSemana.css">
+    <link rel="stylesheet" href="assets/css/arvoreSemana/arvoreSemana-item.css">
+    <link rel="stylesheet" href="assets/css/arvoreSemana/arvoreSemana-item-imagem.css">
+    <link rel="stylesheet" href="assets/css/arvoreSemana/arvoreSemana-item-descricao.css">
+    <!-- Aluguel árvore mensal -->
+    <link rel="stylesheet" href="assets/css/arvoreMes/arvoreMes.css">
+    <link rel="stylesheet" href="assets/css/arvoreMes/arvoreMes-item.css">
+    <link rel="stylesheet" href="assets/css/arvoreMes/arvoreMes-item-imagem.css">
+    <link rel="stylesheet" href="assets/css/arvoreMes/arvoreMes-item-descricao.css">
+    <!-- Geral -->
+    <link rel="stylesheet" href="assets/css/geral/arvore-plano.css">
+    <link rel="stylesheet" href="assets/css/geral/arvore-titulo.css">
+    <link rel="stylesheet" href="assets/css/geral/arvore-preco.css">
+    <link rel="stylesheet" href="assets/css/geral/arvore-semana.css">
+    <link rel="stylesheet" href="assets/css/geral/arvore-mes.css">
+    <link rel="stylesheet" href="assets/css/geral/escolhaAluguel.css">
+    <link rel="stylesheet" href="assets/css/geral/escolhaAluguel-botao.css">
+    <link rel="stylesheet" href="assets/css/geral/formulario-preco.css">
+    <!-- Formulário semanal -->
+    <link rel="stylesheet" href="assets/css/formularioSemanal/formularioSemanal.css">
+    <link rel="stylesheet" href="assets/css/formularioSemanal/formularioSemanal-qtdSemana.css">
+    <link rel="stylesheet" href="assets/css/formularioSemanal/formularioSemanal-escolhaPlano.css">
+    <link rel="stylesheet" href="assets/css/formularioSemanal/formularioSemanal-botao.css">
+    <!-- Formulário mensal -->
+    <link rel="stylesheet" href="assets/css/formularioMensal/formularioMensal.css">
+    <link rel="stylesheet" href="assets/css/formularioMensal/formularioMensal-escolhaPlano.css">
+    <link rel="stylesheet" href="assets/css/formularioMensal/formularioMensal-qtdMes.css">
+    <link rel="stylesheet" href="assets/css/formularioMensal/formularioMensal-botao.css">
+
+    <!-- Título -->
+    <title>Avaliação Semestral - IDW</title>
+  </head>
+  <body>
+    <header>
+      <!-- <h1></h1> -->
+    </header>
+
+    <main>
+      <section class="aluguelSemana" id="aluguelSemana">
+        <div class="descricaoPlanos">
+          <h1>Aluguel de árvores de natal</h1>
+          <p>Quer pagar por semana ou por mês ?</p>
+          <div class="descricaoPlanos__semanal">
+            <p class="descricaoPlanos__semanal__semana">Por semana</p>
+            <div class="descricaoPlanos__semanal__switch">
+              <div class="descricaoPlanos__semanal__ball" id="descricaoPlanos__semanal__ball">aaa</div>
+            </div>
+            <p class="descricaoPlanos__semanal__mes">Por mês</p>
+          </div>
+        </div>
+
+        <div class="arvoreSemana">
+          <div class="arvoreSemana__item">
+            <div class="arvoreSemana__item__imagem">
+              <img src="assets/img/imagem-arvore.png" alt="Imagem ilustrativa árvore de natal">
+            </div>
+            <div class="arvoreSemana__item__descricao">
+              <p class="arvore__plano">Plano</p>
+              <h3 class="arvore__titulo">Básico</h3>
+              <p class="arvore__preco" id="planoSemanalBasico"></p>
+              <p class="arvore__semana">Por semana</p>
+            </div>
+          </div>
+
+          <div class="arvoreSemana__item">
+            <div class="arvoreSemana__item__imagem">
+              <img src="assets/img/imagem-arvore.png" alt="Imagem ilustrativa árvore de natal">
+            </div>
+            <div class="arvoreSemana__item__descricao">
+              <p class="arvore__plano">Plano</p>
+              <h3 class="arvore__titulo">Super</h3>
+              <p class="arvore__preco" id="planoSemanalSuper"></p>
+              <p class="arvore__semana">Por semana</p>
+            </div>
+          </div>
+
+          <div class="arvoreSemana__item">
+            <div class="arvoreSemana__item__imagem">
+              <img src="assets/img/imagem-arvore.png" alt="Imagem ilustrativa árvore de natal">
+            </div>
+            <div class="arvoreSemana__item__descricao">
+              <p class="arvore__plano">Plano</p>
+              <h3 class="arvore__titulo">Mega</h3>
+              <p class="arvore__preco" id="planoSemanalMega"></p>
+              <p class="arvore__semana">Por semana</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="escolhaAluguel">
+          <button class="escolhaAluguel__botao" id="escolhaAluguelSemanal__botao">Alugar plano semanal</button>
+        </div>
+
+        <form class="formularioSemanal" id="formularioSemanal">
+          <fieldset class="formularioSemanal__escolhaPlano">
+            <legend>Qual plano você prefere?</legend>
+            <select id="formularioSemanal__escolhaPlano__option" required>
+                <option>Semanal Básico</option>
+                <option>Semanal Super</option>
+                <option>Semanal Mega</option>
+            </select>
+          </fieldset>
+        
+          <fieldset class="formularioSemanal__qtdSemana">
+            <legend>Por quantas semanas?</legend>
+            <input id="formularioSemanal__qtdSemana__input" type="number" placeholder="exemplo 2" required>
+          </fieldset>
+
+          <button class="formularioSemanal__botao" id="formularioSemanal__botao">Calcular valor</button>
+
+          <p class="formulario__preco" id="formularioSemanal__valor"></p>
+        </form>
+
+      </section>
+
+      <section class="aluguelMes" id="aluguelMes">
+        <div class="descricaoPlanos">
+          <h1>Aluguel de árvores de natal</h1>
+          <p>Quer pagar por semana ou por mês ?</p>
+          <div class="descricaoPlanos__mensal">
+            <p class="descricaoPlanos__mensal__semana">Por semana</p>
+            <div class="descricaoPlanos__mensal__switch">
+              <div class="descricaoPlanos__mensal__ball" id="descricaoPlanos__mensal__ball">aaa</div>
+            </div>
+            <p class="descricaoPlanos__mensal__mes">Por mês</p>
+          </div>
+        </div>
+
+        <div class="arvoreMes">
+          <div class="arvoreMes__item">
+            <div class="arvoreMes__item__imagem">
+              <img src="assets/img/imagem-arvore.png" alt="Imagem ilustrativa árvore de natal">
+            </div>
+            <div class="arvoreMes__item__descricao">
+              <p class="arvore__plano">Plano</p>
+              <h3 class="arvore__titulo">Básico</h3>
+              <p class="arvore__preco" id="planoMensalBasico"></p>
+              <p class="arvore__mes">Por mês</p>
+            </div>
+          </div>
+
+          <div class="arvoreMes__item">
+            <div class="arvoreMes__item__imagem">
+              <img src="assets/img/imagem-arvore.png" alt="Imagem ilustrativa árvore de natal">
+            </div>
+            <div class="arvoreMes__item__descricao">
+              <p class="arvore__plano">Plano</p>
+              <h3 class="arvore__titulo">Super</h3>
+              <p class="arvore__preco" id="planoMensalSuper"></p>
+              <p class="arvore__mes">Por mês</p>
+            </div>
+          </div>
+
+          <div class="arvoreMes__item">
+            <div class="arvoreMes__item__imagem">
+              <img src="assets/img/imagem-arvore.png" alt="Imagem ilustrativa árvore de natal">
+            </div>
+            <div class="arvoreMes__item__descricao">
+              <p class="arvore__plano">Plano</p>
+              <h3 class="arvore__titulo">Mega</h3>
+              <p class="arvore__preco" id="planoMensalMega"></p>
+              <p class="arvore__mes">Por mês</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="escolhaAluguel">
+          <button class="escolhaAluguel__botao" id="escolhaAluguelMensal__botao">Alugar plano mensal</button>
+        </div>
+
+        <form class="formularioMensal" id="formularioMensal">
+          <fieldset class="formularioMensal__escolhaPlano">
+            <legend>Qual plano você prefere?</legend>
+            <select id="formularioMensal__escolhaPlano__option" required>
+                <option>Mensal Básico</option>
+                <option>Mensal Super</option>
+                <option>Mensal Mega</option>
+            </select>
+          </fieldset>
+        
+          <fieldset class="formularioMensal__qtdMes">
+            <legend>Por quantos meses?</legend>
+            <input id="formularioMensal__qtdMes__input" type="number" placeholder="exemplo 2" required>
+          </fieldset>
+
+          <button class="formularioMensal__botao" id="formularioMensal__botao">Calcular valor</button>
+
+          <p class="formulario__preco" id="formularioMensal__valor"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
+
+
+
+

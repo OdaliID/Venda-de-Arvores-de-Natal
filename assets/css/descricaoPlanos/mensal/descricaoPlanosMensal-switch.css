@@ -1,0 +1,8 @@
+.descricaoPlanos__mensal__switch {
+  background: #b3b3b3;
+  border-radius: 10px;
+  display: flex;
+  height: 1.5rem;
+  justify-content: flex-end;
+  width: 5rem;
+}

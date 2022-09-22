@@ -1,0 +1,16 @@
+.formularioSemanal__botao {
+  background: rgba(8, 197, 8, 0.726);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  transition: 400ms all;
+}
+
+.formularioSemanal__botao:hover {
+  background: rgba(9, 128, 9, 0.726);
+  box-shadow: 2px 2px 2px 2px gray;
+  cursor: pointer;
+  color: #fdfdfd;
+}

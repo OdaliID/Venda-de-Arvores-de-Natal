@@ -1,0 +1,8 @@
+.formularioSemanal__qtdSemana {
+  margin-top: 0.5rem;
+  border-radius: 5px;
+}
+
+.formularioSemanal__qtdSemana input {
+  border-radius: 5px;
+}

@@ -1,0 +1,6 @@
+.arvoreMes__item {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0 1.5rem 0 0;
+}

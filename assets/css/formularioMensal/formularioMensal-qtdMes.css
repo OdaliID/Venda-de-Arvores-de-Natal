@@ -1,0 +1,8 @@
+.formularioMensal__qtdMes {
+  margin-top: 0.5rem;
+  border-radius: 5px;
+}
+
+.formularioMensal__qtdMes input {
+  border-radius: 5px;
+}

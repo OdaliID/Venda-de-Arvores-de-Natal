@@ -1,0 +1,10 @@
+.formulario__preco {
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: 400ms all;
+}
+
+.formulario__preco:hover {
+  cursor: pointer;
+  font-size: 2rem;
+}
